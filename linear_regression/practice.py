@@ -1,5 +1,4 @@
 import numpy as np
-from sklearn.linear_model import LinearRegression
 '''
 Example 1:
 
@@ -62,6 +61,29 @@ Y = np.array([6300, 5800, 5700, 4500, 4500, 4200, 4100, 3100, 2100, 2500, 2200])
 
 linear_regression(X,Y)
 
+'''
+Example 4
+'''
+X = np.array([-2, 1, 3])
+Y = np.array([-1, 1, 2])
+
+linear_regression(X,Y)
+
+'''
+Example 5
+'''
+X = np.array([-1, 0, 1, 2])
+Y = np.array([0, 2, 4, 5])
+
+linear_regression(X,Y)
+
+'''
+Example 6
+'''
+X = np.array([0, 1, 2, 3, 4])
+Y = np.array([2, 3, 5, 4, 6])
+
+linear_regression(X,Y)
 
 
 
